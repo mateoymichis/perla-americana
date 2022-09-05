@@ -1,0 +1,54 @@
+.header {
+    background: url(img/portada\ vacía.png) no-repeat center / cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 3rem;
+}
+.nav {
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.nav img {
+    margin-left: 1rem;
+}
+
+.logo_img {
+    width: 200px;
+}
+.main {
+       background: linear-gradient(to bottom, #d2f4fc, #6fd1ec);
+}
+.texto {
+    font-family: 'Nunito', sans-serif;
+    color: #373435;
+    font-size: 1.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.video {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #373435;
+    padding: 3rem 0 3rem 0;
+    background: #6fd1ec;
+}
+
+@media screen and (min-width: 0) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+    }
+}
